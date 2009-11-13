@@ -20,7 +20,7 @@ rake version:bump VER=patch   # ==> Bumped version 1.0.0 --> 1.0.1
 rake version:bump VER=minor   # ==> Bumped version 1.0.1 --> 1.1.0
 rake version:bump VER=major   # ==> Bumped version 1.1.0 --> 2.0.0
 rake version:bump             # ==> Bumped version 2.0.0 --> 2.0.1
-rake version:set VER=4.2.2    # ==> Changed version 2.0.0 --> 4.2.2
+rake version:set VER=4.2.2    # ==> Changed version 2.0.1 --> 4.2.2
 rake version                  # ==> Current version is 4.2.2
 
 You can also use the Capistrano recipe below to update versions when deploying.
