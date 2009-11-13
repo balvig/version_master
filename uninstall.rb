@@ -1,0 +1,1 @@
+FileUtils.rm("#{RAILS_ROOT}/config/version.yml", :verbose => true) if File.exist?("#{RAILS_ROOT}/config/version.yml")

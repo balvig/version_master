@@ -1,0 +1,1 @@
+FileUtils.cp(File.join(File.dirname(__FILE__), 'lib/config/version.yml'), "#{RAILS_ROOT}/config/version.yml",:verbose => true)
