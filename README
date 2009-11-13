@@ -1,7 +1,7 @@
 VersionMaster
 =============
 
-A silly little tool for managing app versions. 
+A silly little tool for managing app versions heavily inspired by http://github.com/toland/app_version. 
 
 How to use
 ==========
