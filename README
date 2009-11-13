@@ -26,7 +26,7 @@ rake version                  # ==> Current version is 4.2.2
 You can also use the Capistrano recipe below to update versions when deploying.
 
 cap deploy:bump               # Updates patch number and uploads version.yml to the server.
-cap deploy:bump VERSION=minor # Updates minor version number and uploads version.yml to the server.
+cap deploy:bump VER=minor     # Updates minor version number and uploads version.yml to the server.
 
 Use the constant APP_VERSION in your views or elsewhere to display the current version.
 
