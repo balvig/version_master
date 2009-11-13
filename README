@@ -33,5 +33,9 @@ Use the constant APP_VERSION in your views or elsewhere to display the current v
 Example: 
 <p>My App v.<%=APP_VERSION%></p> # ==> <p>My App v.4.2.2</p>
 
+Installation
+============
+
+script/plugin install git://github.com/balvig/version_master.git
 
 Copyright (c) 2009 Jens Jakob Balvig, released under the MIT license
