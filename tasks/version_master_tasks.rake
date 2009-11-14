@@ -7,18 +7,13 @@ namespace :version do
   desc "Bump version number"
   task :bump => :environment do
     version = VersionMaster::Version.new
-    old_version = version.to_s
-    ENV['VER'] ? version.bump(ENV['VER']) : version.bump
-    new_version = version.to_s
-    puts "Bumped version #{old_version} --> #{new_version}"
+    puts "Bumped version #{version.to_s} --> #{ENV['VER'] ? version.bump(ENV['VER']) : version.bump}"
   end
   
   desc "Set version number"
   task :set => :environment do
     version = VersionMaster::Version.new
-    old_version = version.to_s
-    version.set(ENV['VER'])
-    new_version = version.to_s
-    puts "Changed version #{old_version} --> #{new_version}"
+    puts "Changed version #{version.to_s} --> #{version.set(ENV['VER'])}"
   end
 end
+

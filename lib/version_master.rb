@@ -44,6 +44,7 @@ module VersionMaster
     
     def save
       File.open(@yaml_file_path, 'w') {|f| f.write(@parts.to_yaml) }
+      to_s
     end
   end
 end
